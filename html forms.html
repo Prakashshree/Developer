@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head><title>html forms</title></head>
+<body>
+    <form>
+        <div>
+            <center><h1>Engeering collage registration:</h1></center>
+                
+            <br>
+            <label>First name:</label>
+            <input type="text" name="firstname" placeholder="firstname" size="10" required /> <br> <br> 
+
+            <label>Middle name:</label> 
+            <input type="text" name="middle name" placeholder="middle name" size="15" required /> <br> <br> 
+
+            <label> Last name:</label>
+            <input type="text" name="last name" placeholder="last name " size="15" required />  <br> <br> 
+
+            <div>
+                <label>Stream:</label>
+                <select>
+                    <option value="course">science</option> 
+                    <option value="btech">chamical engeneering</option>
+                    <option value="mtech">mechanicle engeneering</option>
+                    <option value="msce">software engeneering</option>
+                </select>
+            </div> <br>
+            <div>
+                <label>Gender:</label> <br>
+                <input type="radio" value="Male" name="gender"> Male<br> 
+
+                <input type="radio" value="female" name="gender">Female <br> 
+
+                <input type="radio"  value="other" name="gender"> Other <br>
+
+            </div> <br>
+            <label>
+                phone:
+            </label>
+            <input type="text" name="country code" placeholder="country code" value="+91" size="2"> 
+            <input type="tel"  name="phone"   size="25" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890" required > 
+
+            <br> <br>
+            Current address:
+            <textarea cols="82" rows="5" placeholder="Current address" value="address" required ></textarea> <br> <br>
+            <label for="myfile">drop your resume :</label>
+            <input type="file" id="myfile" name="myfile"> <br> <br> 
+
+            <label for="email"> Email Address</label> 
+            <input type="email" name="email address" id="email" placeholder="Enter email" required > <br> <br> 
+
+            <label for="psw">Password</label>
+            <input type="password" name="psw" id="psw" placeholder="Enter password" required >
+            <br> <br>
+            <label for="psw-repeat">Rewrite Password</label>
+            <input type="password" name="psw-repeat" id="repeat-psw" placeholder="new password" required >
+            <br> <br>
+
+            <button type="submit" class="Registration">Register</button>
+
+        </div>
+    </form>
+
+</body>
